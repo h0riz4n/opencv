@@ -7,8 +7,8 @@ using namespace cv;
 using namespace std;
 
 int main() {
-    Mat image1 = imread("C:/Programming/C++/Image-Recognition/11.03/src/image1.png");
-    Mat image2 = imread("C:/Programming/C++/Image-Recognition/11.03/src/image2.png");
+    Mat image1 = imread("./image1.png");
+    Mat image2 = imread("./image2.png");
 
     if (image1.empty() || image2.empty()) {
         cerr << "Не удалось загрузить изображения!" << endl;
