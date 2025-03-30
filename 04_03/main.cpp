@@ -29,7 +29,7 @@ string detectShape(const vector<Point>& contour) {
 }
 
 int main() {
-  Mat image = imread("./image1.png");
+  Mat image = imread("./image.png");
 
   if (image.empty()) {
     cout << "Не удалось загрузить изображение!" << endl;
